@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    position: relative;
+    height: 660px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./back.jpg);
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li 
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    border: 1px solid black transparent; 
+    transition: 0.7s ease; 
+}
+nav ul li a:hover{
+    background-color: red;
+}
+.header{
+    max-width: 1400px;
+    margin: auto;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.content h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.content p{
+    color: #2f4f4f;
+    line-height: 22px;
+}
+.content a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: antiquewhite;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width:33%;
+    height:550px;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+.images img{
+    height:500px;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.aboutme{
+        width: 1200px;
+        padding: 80px 80px;
+        background-color: black;
+}
+.about-jess{
+    width: 550px;
+}
+.aboutme img{
+        height: 700px;
+        width: 500px;
+}
+.footer{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-jess h2{
+    color:whitesmoke;
+    font-size: medium;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-jess h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: small;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-jess p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
